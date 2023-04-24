@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
         return 1;
     }
     $prima = bilangan_prima($angka);
-    if($latihan == 1){
+    if($prima == 1){
         echo "$angka adalah bilangan prima";
     }else{
         echo "$angka bukan bilangan prima";
