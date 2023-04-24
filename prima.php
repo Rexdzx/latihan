@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
 
     $angka = $_POST['angka'];
 
-    function latihan($angka){
+    function bilangan_prima($angka){
 
         if($angka <= 1)
         return 0;
@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
         }
         return 1;
     }
-    $latihan = latihan($angka);
+    $prima = bilangan_prima($angka);
     if($latihan == 1){
         echo "$angka adalah bilangan prima";
     }else{
